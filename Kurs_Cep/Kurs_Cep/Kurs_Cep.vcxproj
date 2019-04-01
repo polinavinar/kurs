@@ -115,12 +115,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Chain.cpp" />
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Shop.cpp" />
+    <ClCompile Include="Site.cpp" />
+    <ClCompile Include="Warehose.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Shop.txt" />
     <Text Include="Site.txt" />
     <Text Include="Warehouse.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Chain.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Header.h" />
+    <ClInclude Include="Shop.h" />
+    <ClInclude Include="Site.h" />
+    <ClInclude Include="Warehose.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
